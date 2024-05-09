@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Currículo</title>
+  <link rel="stylesheet" href="css/style_formulario.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Formulário de Currículo</h1>
+    <form id="curriculoForm">
+      <h2>Informações Pessoais</h2>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+ 
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+ 
+      <label for="telefone">Telefone:</label>
+      <input type="tel" id="telefone" name="telefone" required>
+ 
+      <label for="endereco">Endereço:</label>
+      <input type="text" id="endereco" name="endereco" required>
+ 
+      <h2>Objetivo Profissional</h2>
+      <label for="objetivo">Objetivo Profissional:</label>
+      <textarea id="objetivo" name="objetivo" rows="4" required></textarea>
+ 
+      <h2>Formação Acadêmica</h2>
+      <label for="formacao_academica">Formação Acadêmica:</label>
+      <textarea id="formacao_academica" name="formacao_academica" rows="4" required></textarea>
+ 
+      <h2>Formação Complementar</h2>
+      <label for="formacao_complementar">Formação Complementar ou Cursos Extracurriculares:</label>
+      <textarea id="formacao_complementar" name="formacao_complementar" rows="4" required></textarea>
+ 
+      <h2>Experiências Profissionais</h2>
+      <label for="experiencias">Experiências Profissionais:</label>
+      <textarea id="experiencias" name="experiencias" rows="4" required></textarea>
+ 
+      <h2>Outras Informações Relevantes</h2>
+      <label for="outras_informacoes">Outras Informações Relevantes:</label>
+      <textarea id="outras_informacoes" name="outras_informacoes" rows="4" required></textarea>
+ 
+      <h2>Contato de Emergência</h2>
+      <label for="nome_contato">Nome do Contato:</label>
+      <input type="text" id="nome_contato" name="nome_contato" required>
+ 
+      <label for="telefone_contato">Telefone do Contato:</label>
+      <input type="tel" id="telefone_contato" name="telefone_contato" required>
+ 
+      <button type="submit">Enviar</button>
+      <button type="button" onclick="downloadCurriculum()">Baixar</button>
+      <button type="button" onclick="editarCurriculum()">Editar</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

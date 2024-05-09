@@ -1,0 +1,91 @@
+/* Estilos anteriores permanecem os mesmos */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.logo-container {
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.info-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.info-container h1 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.info-container p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login {
+    background-color: #158dbc;
+    color: #fff;
+    border: 1px solid #158dbc;
+}
+
+.login:hover {
+    background-color: #0056b3;
+}
+
+.cadastro {
+    background-color: #0b4860;
+    color: #fff;
+    border: 1px solid #0b4860;
+}
+
+.cadastro:hover {
+    background-color: #68adc8;
+}
+.footer {
+    position: relative;
+    background-color: #b9b8b8;
+    color: #fff; 
+    height: 50px;
+    margin-top: 291px;
+    text-align: center;
+}
+
+.footer p {
+    align-items: center;
+    margin-top: 15px;
+}
